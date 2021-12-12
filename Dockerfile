@@ -35,5 +35,5 @@ RUN pip install mglearn==0.1.9
 RUN pip install rpy2==3.4.5
 
 RUN Rscript -e "install.packages('knitr')"
-RUN Rscript -e "install.packages('tydiverse')"
+RUN Rscript -e "install.packages('readr')"
 Run Rscript -e "install.packages('rmarkdown')"
